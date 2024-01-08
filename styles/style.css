@@ -223,9 +223,68 @@ section {
   font-weight: 700;
 }
 
+.Ellipse-img {
+  border-radius: 50%;
+  border: 15px solid #f00;
+  padding: 30px;
+}
 
-.Ellipse-img{
-    border-radius: 50%;
-    border: 15px solid #F00;
-    padding: 30px;
+.holyday {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holyday-top-info {
+  text-align: center;
+  padding: 0 206px;
+  margin-bottom: 68px;
+}
+
+.holyday-title {
+  margin-bottom: 16px;
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holyday-greeting {
+  margin-top: 0;
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.holyday-greeting span {
+  color: #f00;
+}
+
+.holyday-disc {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+
+.images{
+    background: url('../assets/Rectangle 2.png'), url('../assets/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom, right top;
+}
+
+.boximg{
+    width: 680px;
+    height: 650px;
+}
+
+.discountban{
+    position: absolute;
+    right: 30%;
+    margin-top: 100px;
+    width: 250px;
+    
 }
