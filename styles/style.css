@@ -3,7 +3,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  /* font-family: 'Inter', sans-serif; */
   font-family: "Merriweather", serif;
   scroll-behavior: smooth;
 }
@@ -130,6 +129,13 @@ section {
   font-size: 20px;
   font-weight: 700;
   border: none;
+  transition: 0.8s;
+}
+
+.join-btn:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(129, 128, 128, 0.9);
+
 }
 
 .place {
@@ -178,6 +184,13 @@ section {
   border-radius: 8px;
   background: #f00;
   border: none;
+ transition: 0.5s;
+}
+
+
+.join-btn2:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(30, 29, 29, 0.93);
 }
 
 .coming {
@@ -335,6 +348,16 @@ section {
   margin-bottom: 24px;
   width: 354px;
   height: 350px;
+  transition: 0.8s;
+  border-radius: 16px;
+}
+
+.row img:hover{
+  transform: translateY(-20px);
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+
+
 }
 
 .subscribe {
@@ -452,3 +475,5 @@ footer i {
   display: flex;
   justify-content: space-between;
 }
+
+
