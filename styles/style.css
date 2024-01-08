@@ -13,6 +13,8 @@ body {
   padding-left: 100px;
 }
 
+/* Header & Banner Section starts Here */
+
 header {
   display: flex;
   justify-content: center;
@@ -46,3 +48,4 @@ header {
   font-size: 72px;
   line-height: 95px;
 }
+/* Header & Banner Section ends Here */
